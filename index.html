@@ -20,7 +20,7 @@
     <body>
         <iframe id="page" src=""></iframe>
         <script>
-            const Page=`http://101.33.248.217:11802/public/`;
+            const Page=`http://101.33.248.217:11802`;
             document.getElementById("page").src=Page+location.hash.slice(1);
             window.addEventListener("load",()=>{
                 window.addEventListener("message",(e)=>{
